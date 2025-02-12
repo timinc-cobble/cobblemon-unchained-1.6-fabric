@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "us.timinc.mc.cobblemon.unchained.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [],
+  "server": [
+    "EmptyPokeBallEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
