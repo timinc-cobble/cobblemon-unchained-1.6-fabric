@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cobblemon_unchained",
-  "version": "1.6-fabric-1.0.0",
+  "version": "1.6-fabric-1.0.1",
   "name": "Cobblemon Unchained",
   "description": "Chain KOs and captures to boost spawns around you.",
   "authors": ["TimInc aka Timothy Metcalfe"],
