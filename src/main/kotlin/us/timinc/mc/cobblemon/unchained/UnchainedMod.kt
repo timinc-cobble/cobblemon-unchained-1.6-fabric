@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer
 import us.timinc.mc.cobblemon.unchained.modules.HiddenBooster
 import us.timinc.mc.cobblemon.unchained.modules.IvBooster
 import us.timinc.mc.cobblemon.unchained.modules.ShinyBooster
+import us.timinc.mc.cobblemon.unchained.modules.SpawnChainer
 
 object UnchainedMod : ModInitializer {
     @Suppress("unused", "MemberVisibilityCanBePrivate")
@@ -13,5 +14,6 @@ object UnchainedMod : ModInitializer {
         ShinyBooster.initialize()
         HiddenBooster.initialize()
         IvBooster.initialize()
+        SpawnChainer.initialize()
     }
 }
