@@ -6,9 +6,9 @@ import com.cobblemon.mod.common.api.spawning.spawner.PlayerSpawnerFactory
 import com.cobblemon.mod.common.pokemon.Pokemon
 import net.minecraft.resources.ResourceLocation
 import net.minecraft.server.level.ServerPlayer
+import us.timinc.mc.cobblemon.unchained.api.AbstractActionInfluenceBooster
 import us.timinc.mc.cobblemon.unchained.api.AbstractBoostConfig
 import us.timinc.mc.cobblemon.unchained.api.AbstractBooster
-import us.timinc.mc.cobblemon.unchained.api.AbstractActionInfluenceBooster
 import kotlin.random.Random.Default.nextInt
 
 object HiddenBooster : AbstractBooster<HiddenBoosterConfig>(
@@ -23,7 +23,7 @@ object HiddenBooster : AbstractBooster<HiddenBoosterConfig>(
 class HiddenBoosterInfluence(
     override val player: ServerPlayer,
     override val config: HiddenBoosterConfig,
-    override val debug: (String) -> Unit
+    override val debug: (String) -> Unit,
 ) :
     AbstractActionInfluenceBooster(player, config, debug) {
     override fun boostAction(
@@ -31,7 +31,7 @@ class HiddenBoosterInfluence(
         pokemon: Pokemon,
         species: ResourceLocation,
         form: String,
-        points: Double
+        points: Double,
     ) {
         val totalMarbles = config.marbles
         val ability = pokemon.form.abilities.mapping[Priority.LOW]?.random()?.template?.name

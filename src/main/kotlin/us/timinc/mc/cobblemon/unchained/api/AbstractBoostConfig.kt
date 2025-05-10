@@ -29,7 +29,8 @@ abstract class AbstractBoostConfig(val defaultValue: Double = 0.0) {
         val captureStreak = counterManager.getStreakCount(CounterType.CAPTURE, species, calcForm)
         val captureCount = counterManager.getCount(CounterType.CAPTURE, species, calcForm)
 
-        val points = (koStreak * koStreakPoints) + (koCount * koCountPoints) + (captureStreak * captureStreakPoints) + (captureCount * captureCountPoints)
+        val points =
+            (koStreak * koStreakPoints) + (koCount * koCountPoints) + (captureStreak * captureStreakPoints) + (captureCount * captureCountPoints)
 
         return thresholds.maxOfOrNull { if (it.key <= points) it.value else defaultValue } ?: defaultValue
     }

@@ -8,9 +8,9 @@ import com.cobblemon.mod.common.pokemon.IVs
 import com.cobblemon.mod.common.pokemon.Pokemon
 import net.minecraft.resources.ResourceLocation
 import net.minecraft.server.level.ServerPlayer
+import us.timinc.mc.cobblemon.unchained.api.AbstractActionInfluenceBooster
 import us.timinc.mc.cobblemon.unchained.api.AbstractBoostConfig
 import us.timinc.mc.cobblemon.unchained.api.AbstractBooster
-import us.timinc.mc.cobblemon.unchained.api.AbstractActionInfluenceBooster
 import kotlin.math.min
 
 object IvBooster : AbstractBooster<IvBoosterConfig>(

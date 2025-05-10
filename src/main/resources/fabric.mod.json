@@ -4,7 +4,9 @@
   "version": "1.6-fabric-1.0.1",
   "name": "Cobblemon Unchained",
   "description": "Chain KOs and captures to boost spawns around you.",
-  "authors": ["TimInc aka Timothy Metcalfe"],
+  "authors": [
+    "TimInc aka Timothy Metcalfe"
+  ],
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
