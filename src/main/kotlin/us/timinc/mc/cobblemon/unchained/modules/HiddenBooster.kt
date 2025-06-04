@@ -2,7 +2,6 @@ package us.timinc.mc.cobblemon.unchained.modules
 
 import com.cobblemon.mod.common.api.Priority
 import com.cobblemon.mod.common.api.spawning.BestSpawner.fishingSpawner
-import com.cobblemon.mod.common.api.spawning.context.FishingSpawningContext
 import com.cobblemon.mod.common.api.spawning.detail.PokemonSpawnAction
 import com.cobblemon.mod.common.api.spawning.spawner.PlayerSpawnerFactory
 import com.cobblemon.mod.common.pokemon.Pokemon
