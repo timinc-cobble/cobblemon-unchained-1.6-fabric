@@ -24,6 +24,6 @@
     "fabric-language-kotlin": ">=1.9.3+kotlin.1.8.20",
     "fabric": "*",
     "cobblemon": ">=1.6.0",
-    "cobblemon_counter": ">=1.6-fabric-1.0.0"
+    "cobblemon_counter": ">=1.6-fabric-1.5.0"
   }
 }
